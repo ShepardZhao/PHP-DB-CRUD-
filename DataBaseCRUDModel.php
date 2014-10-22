@@ -25,7 +25,7 @@ THE SOFTWARE.
  * Time: 2:10 PM
  */
 //include database singleton
-include_once $_SERVER["DOCUMENT_ROOT"].'/lib/model/DatabaseSingletonModel.php';
+include_once 'DatabaseSingletonModel.php';
 class DataBaseCRUDModel {
 
     protected  $singletonDbConnection;
